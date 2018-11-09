@@ -1,7 +1,21 @@
 {
-  "name": "contacts",
-  "version": "0.1.0",
-  "private": true,
+  "name": "contacts-an-udacity-application",
+  "version": "1.0.0",
+  "description": "This is a React application built for Udacity's Contacts project under React Fundamentals module.",
+  "keywords": ["react", "javascript", "contacts"],
+  "license": "MIT",
+  "author": "Edward Pritchard <edward.d.pritchard@gmail.com> (https://ethemcreative.com)",
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edwdeapri/udacity-contact.git"
+  },
+    "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "form-serialize": "^0.7.2",
     "prop-types": "^15.6.1",
@@ -9,11 +23,5 @@
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "^2.1.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   }
 }
